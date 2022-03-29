@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace AbhikumarsBooks.DataAccess.Repository.IRepository
 {
-    interface ISP_Call : IDisposable
+    public interface ISP_Call : IDisposable
     {
-        T single<T>(string prodedurename, DynamicParameters  param = null);
+        T Single<T>(string prodedurename, DynamicParameters param = null);
         void Execute(string produurename, DynamicParameters param = null);
         T OneRecord<T>(string producername, DynamicParameters param = null);
         IEnumerable<T> List<T>(string producername, DynamicParameters param = null);

@@ -1,7 +1,6 @@
 ﻿using AbhikumarsBooks.DataAccess.Repository.IRepository;
 using AbhikumarsBooks.Models;
 using AbhikumarsBookStore.DataAccess.Data;
-using AndrewsBooks.DataAccess.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AbhikumarsBooks.DataAccess.Repository
 {
-    public class CategoryRepository : Repository<Category>, IcategoryRepository
+    public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
         private readonly ApplicationDbContext _db;
 
