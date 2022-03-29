@@ -59,3 +59,15 @@ END
 
 10:30 - added category table dbo.categories to db
 
+
+part 2.2  Repository
+
+10:35 - started the repository and category
+
+11:00 - typing the code of cateory and reppository
+
+
+11:30 - got many eroors in category and repository
+
+12:15 - solved the errors in code
+
