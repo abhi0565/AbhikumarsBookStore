@@ -52,3 +52,10 @@ END
 3/28/2022
 
 9:38 - i added the new migration file to the .dataacess project.
+
+10:00 -  having error to add new add category to db 
+
+10:27 - solved the errorr of add category to db 
+
+10:30 - added category table dbo.categories to db
+
