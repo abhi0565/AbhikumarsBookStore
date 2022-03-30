@@ -23,7 +23,7 @@ namespace AbhikumarsBooks.DataAccess.Repository
         }
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _db.Dispose();
         }
 
         public void Execute(string procedurename, DynamicParameters param = null)
@@ -81,9 +81,9 @@ namespace AbhikumarsBooks.DataAccess.Repository
             }
         }
 
-        public T single<T>(string prodedurename, DynamicParameters param = null)
-        {
-            throw new NotImplementedException();
-        }
+       // public T single<T>(string prodedurename, DynamicParameters param = null)
+       // {
+       //     throw new NotImplementedException();
+        //}
     }
 }

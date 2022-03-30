@@ -74,3 +74,19 @@ part 2.2  Repository
 2:00 - i made the SP_call.cs and ISP_call.ca file in the repository
 
 2:30 - i made unitofwork and Iunitofwork files in  project
+
+3/29/2022
+
+2:00 i started working on third part
+
+3:00 added the categorycontroller.cs in customer and admin 
+
+4:00 addes the index.cshtml in the admin secrion in view folder
+
+5:00 having error in displaying the index file
+
+6:28 finally found the error in categorycontroller and now i can see the category view
+
+8:26 updating the form and careat new funtionality
+
+9:00 completed the all the parts but cannot add the new category to list errors receiving
