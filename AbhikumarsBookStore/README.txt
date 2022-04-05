@@ -51,7 +51,7 @@ END
 
 3/28/2022
 
-9:38 - i added the new migration file to the .dataacess project.
+9:38 - i added the new migration file  20220329023209_AddDefaultIdentityMigration to the .dataacess project.
 
 10:00 -  having error to add new add category to db 
 
@@ -90,3 +90,24 @@ part 2.2  Repository
 8:26 updating the form and careat new funtionality
 
 9:00 completed the all the parts but cannot add the new category to list errors receiving
+
+
+************************* part 3 starts ***************************************************
+
+4/4/2022
+
+
+10:00 changing in old code 
+
+10:15 complited to the CoverType model 
+
+10:16 added th Id and Name in the CoverType.cs file
+
+10:30 add the CoverTypeRepository Clas
+
+10:35 added the ICoverTypeRepositry Interface 
+
+10:42 made changes in the unitOfWork and IunitOfWork files
+
+10:45 added the migration 20220405034006_AddCoverTypeToDb to the migration folder
+
