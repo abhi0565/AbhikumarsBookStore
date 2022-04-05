@@ -113,6 +113,9 @@ part 2.2  Repository
 
 11:15 added the files for the covertype in view
 
+
+5/4/2022
+
 12:00 there is errors in the code because i could not add or remove data in covertype
 
 12:30 solved error in covertype and i can add and delete data from covertype
@@ -120,6 +123,12 @@ part 2.2  Repository
 
 3:41 i added the new migration 20220405083916_AddProductToDb to the migration folder
 
+1:14  i started the product controler
+
+2:00 adde the prooduct model 
+
+
+3:00 added the product view in the project
 
 
 
