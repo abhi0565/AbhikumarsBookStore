@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AbhikumarsBooks.DataAccess.Repository
 {
-    public class ProductRepository : Repository<Category>, ICategoryRepository
+    public class ProductRepository : Repository<Product>, IProductRepository
     {
         private readonly ApplicationDbContext _db;
 
@@ -20,15 +20,24 @@ namespace AbhikumarsBooks.DataAccess.Repository
 
         public void Update(Product product)
         {
-            // use .NET LINQ to retrieve the first or default category object
-            // then pass the id as a generic entity which matches the Category ID
-            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == product.Id);
+            var objFromDb = _db.Products.FirstOrDefault(s => s.Id == product.Id);
+
             if (objFromDb != null)
             {
-                objFromDb.Name = product.Name;
-               
-            }
+                if (product.ImageUrl != null)
+                {
+                    objFromDb.ImageUrl = product.ImageUrl;
+                }
+                objFromDb.Title = product.Title;
+                objFromDb.Description = product.Description;
+                objFromDb.ISBN = product.ISBN;
+                objFromDb.Author = product.Author;
+                objFromDb.ListPrice = product.ListPrice;
+                objFromDb.CategoryId = product.CategoryId;
+                objFromDb.CoverTypeId = product.CoverTypeId;
 
+
+            }
         }
     }
 }

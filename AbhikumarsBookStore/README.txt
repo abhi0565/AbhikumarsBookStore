@@ -118,6 +118,12 @@ part 2.2  Repository
 12:30 solved error in covertype and i can add and delete data from covertype
 
 
+3:41 i added the new migration 20220405083916_AddProductToDb to the migration folder
+
+
+
+
+
 
 
 
