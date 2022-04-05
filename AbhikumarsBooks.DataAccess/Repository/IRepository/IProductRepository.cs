@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace AbhikumarsBooks.DataAccess.Repository.IRepository
 {
    
-        public interface ICoverTypeRepository : IRepository<CoverType>
+        public interface IProductRepository : IRepository<Product>
         {
-            void Update(CoverType covertype);
+            void Update(Product product);
         }
     
 }

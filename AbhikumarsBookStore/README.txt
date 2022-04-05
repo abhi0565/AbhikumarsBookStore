@@ -111,3 +111,14 @@ part 2.2  Repository
 
 10:45 added the migration 20220405034006_AddCoverTypeToDb to the migration folder
 
+11:15 added the files for the covertype in view
+
+12:00 there is errors in the code because i could not add or remove data in covertype
+
+12:30 solved error in covertype and i can add and delete data from covertype
+
+
+
+
+
+
