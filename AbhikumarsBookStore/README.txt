@@ -131,6 +131,17 @@ part 2.2  Repository
 3:00 added the product view in the project
 
 
+3:30 added the productVM.cs and productcontroller.cs
+
+
+3:45 able to see the table for adding the prodouct
+
+
+4:00 having error of foreignkey while adding the data of product
+
+
+
+
 
 
 

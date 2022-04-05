@@ -67,6 +67,38 @@ namespace AbhikumarsBookStore.Area.Admin.Controllers
 
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                if (product.Id == 0)
+
+                {
+                    _unitOfWork.Product.Add(product);
+
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(product);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(product);
+        }
+
+
+
+
+
+
+
+
+
+
+
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
