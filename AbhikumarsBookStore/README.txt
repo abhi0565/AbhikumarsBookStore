@@ -163,6 +163,10 @@ part 2.2  Repository
 
 3:40 i have to to search the error of that 
 
+4:00  i found the error in my product js file i changed the name of the price there with list price. now 
+i am able to see the all product data in table
+
+
 
 
 
