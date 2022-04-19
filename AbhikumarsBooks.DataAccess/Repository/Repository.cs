@@ -72,6 +72,11 @@ namespace AbhikumarsBooks.DataAccess.Repository
             return query.FirstOrDefault();      // returns the IEnumerable based on the conditions of the query
         }
 
+        public T getFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Remove(int id)
         {
             T entity = dbSet.Find(id);
@@ -86,11 +91,6 @@ namespace AbhikumarsBooks.DataAccess.Repository
         public void RemoveRange(IEnumerable<T> entity)
         {
             dbSet.RemoveRange(entity);
-        }
-
-        T IRepository<T>.getFirstOrDefault(Expression<Func<T, bool>> filter, string includeProperties)
-        {
-            throw new NotImplementedException();
         }
     }
 }

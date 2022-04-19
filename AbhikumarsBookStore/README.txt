@@ -140,6 +140,22 @@ part 2.2  Repository
 4:00 having error of foreignkey while adding the data of product
 
 
+***************************************** part 4 starts *************************************************
+
+11:00 started working on the part 4 of the prooject 
+
+11:30 comparing my code with the provided code
+
+
+11:51 serching about the error
+
+
+12:00  i got worning for the databse
+
+
+3:00 i solved the error now my data is adding in data base
+
+
 
 
 

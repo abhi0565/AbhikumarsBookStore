@@ -19,14 +19,14 @@ namespace AbhikumarsBooks.DataAccess.Repository
             _db = db;
         }
 
-        public void Update(CoverType CoverType)
+        public void Update(CoverType coverType)
         {
             // use .NET LINQ to retrieve the first or default category object
             // then pass the id as a generic entity which matches the Category ID
-            var objFromDb = _db.CoverTypes.FirstOrDefault(s => s.Id == CoverType.Id);
+            var objFromDb = _db.CoverTypes.FirstOrDefault(s => s.Id == coverType.Id);
             if (objFromDb != null)
             {
-                objFromDb.Name = CoverType.Name;
+                objFromDb.Name = coverType.Name;
 
             }
 
