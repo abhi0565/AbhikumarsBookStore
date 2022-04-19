@@ -100,13 +100,18 @@ namespace AbhikumarsBookStore.Area.Admin.Controllers
 
 
         #region API CALLS
+
+
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Categoty,CoveType");
+            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
             return Json(new { data = allObj });
-
         }
+
+
+
+
         [HttpDelete]
         public IActionResult Delete(int id)
         {

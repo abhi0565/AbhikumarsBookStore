@@ -155,6 +155,14 @@ part 2.2  Repository
 
 3:00 i solved the error now my data is adding in data base
 
+3:20 i found the error in my getall() method 
+
+3:30 i chnged the getall method now I am able to see my products 
+
+3:36 i can not see the price velue in my data tabel 
+
+3:40 i have to to search the error of that 
+
 
 
 
