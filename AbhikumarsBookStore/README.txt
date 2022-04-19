@@ -166,8 +166,8 @@ part 2.2  Repository
 4:00  i found the error in my product js file i changed the name of the price there with list price. now 
 i am able to see the all product data in table
 
-
-
+4:18 now i changed the  files of customer index.cshtml  and homecontroller.cs file 
+ now my product data is visiable in my hoempage
 
 
 
