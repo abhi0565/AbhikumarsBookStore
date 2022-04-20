@@ -169,9 +169,20 @@ i am able to see the all product data in table
 4:18 now i changed the  files of customer index.cshtml  and homecontroller.cs file 
  now my product data is visiable in my hoempage
 
+ 5:00 having error in uploding image and displaying it
+
+
+ 6:00 my img url is not uploded in the database
+
+ 6:30 i made image folder for the product 
+
+ 7:00 i made changes in productcontroller.cs file
+
+ 7:20 now i can see my product list in my bookstore page
 
 
 
+  
 
 
 
